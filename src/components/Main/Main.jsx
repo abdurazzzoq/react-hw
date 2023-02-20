@@ -1,4 +1,4 @@
-import mainImg from "../images/illustration.png";
+// import mainImg from "../images/illustration.png";
 
 function Main() {
   return (
@@ -12,7 +12,7 @@ function Main() {
         <button className="main-btn">Consult today</button>
       </div>
       <div className="div-right">
-        <img src={mainImg} alt="" />
+        {/* <img src={mainImg} alt="" /> */}
       </div>
     </div>
   );

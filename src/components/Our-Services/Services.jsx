@@ -1,9 +1,9 @@
-import lupa from "../images/Frame.svg";
-import tablet from "../images/tablet.svg";
-import consult from "../images/consultation.svg";
-import details from "../images/details.svg";
-import emergency from "../images/emergency.svg";
-import tracking from "../images/tracking.svg";
+// import lupa from "../images/Frame.svg";
+// import tablet from "../images/tablet.svg";
+// import consult from "../images/consultation.svg";
+// import details from "../images/details.svg";
+// import emergency from "../images/emergency.svg";
+// import tracking from "../images/tracking.svg";
 
 export function Services() {
   return (
@@ -30,7 +30,7 @@ export function Services() {
 
       <div className="services-bottom">
         <div className="cards" style={{ paddingTop: 54 }}>
-          <img src={lupa} alt="" />
+          {/* <img src={lupa} alt="" /> */}
           <div className="cards-header"style={{paddingTop:32}} >Search doctor</div>
           <p
             className="cards-about"
@@ -42,7 +42,7 @@ export function Services() {
         </div>
 
         <div className="cards" style={{ paddingTop: 62 }}>
-          <img src={tablet} alt="" />
+          {/* <img src={tablet} alt="" /> */}
           <div className="cards-header"style={{paddingTop:29}} >Online pharmacy</div>
           <p className="cards-about" style={{ paddingRight: 52 }}>
             Buy your medicines with our mobile application with a simple
@@ -51,7 +51,7 @@ export function Services() {
         </div>
 
         <div className="cards" style={{ paddingTop: 47 }}>
-          <img src={consult} alt="" />
+          {/* <img src={consult} alt="" /> */}
           <div className="cards-header"style={{paddingTop:34}} >Consultation</div>
           <p className="cards-about" style={{ paddingRight: 50 }}>
             Free consultation with our trusted doctors and get the best
@@ -60,7 +60,7 @@ export function Services() {
         </div>
 
         <div className="cards" style={{ paddingTop: 46 }}>
-          <img src={details} alt="" />
+          {/* <img src={details} alt="" /> */}
           <div className="cards-header"style={{paddingTop:35}} >Details info</div>
           <p className="cards-about" style={{ paddingRight: 50 }}>
             Free consultation with our trusted doctors and get the best
@@ -69,7 +69,7 @@ export function Services() {
         </div>
 
         <div className="cards" style={{ paddingTop: 59 }}>
-          <img src={emergency} alt="" />
+          {/* <img src={emergency} alt="" /> */}
           <div className="cards-header"style={{paddingTop:46}} >Emergency care</div>
           <p className="cards-about" style={{ paddingRight: 50 }}>
             You can get 24/7 urgent care for yourself or your children and your
@@ -78,7 +78,7 @@ export function Services() {
         </div>
 
         <div className="cards">
-          <img style={{ paddingTop: 52 }} src={tracking} alt="" />
+          {/* <img style={{ paddingTop: 52 }} src={tracking} alt="" /> */}
 
           <div className="cards-header"style={{paddingTop:29}} >Tracking</div>
           <p className="cards-about" style={{ paddingRight: 50 }}>

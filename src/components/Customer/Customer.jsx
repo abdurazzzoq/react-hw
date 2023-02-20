@@ -1,4 +1,4 @@
-import edward from "../images/edward.svg";
+// import edward from "../images/edward.svg";
 
 export function Customer() {
   return (
@@ -18,7 +18,7 @@ export function Customer() {
 
       <div className="edward">
         <div className="edward-left">
-          <img src={edward} alt="" />
+          {/* <img src={edward} alt="" /> */}
           <div style={{marginLeft:29}}>
           <h6 className="edward-name">Edward Newgate</h6>
           <p className="edward-sub">Founder Circle</p>

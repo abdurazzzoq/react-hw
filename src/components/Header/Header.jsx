@@ -1,10 +1,10 @@
-import logo from '../images/logotip.svg'
+// import logo from '../images/logotip.svg'
 
 export function Header(){
     return(
         <div className='header-part container'>
             <header>
-                   <img src={logo} alt="" />
+                   {/* <img src={logo} alt="" /> */}
                 <ul>
                     <li className="list-items">Home</li>
                     <li className="list-items">Find a doctor</li>

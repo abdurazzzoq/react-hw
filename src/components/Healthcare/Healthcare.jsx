@@ -1,9 +1,9 @@
-import healthcare from '../images/healthcare.png'
+// import healthcare from '../images/healthcare.png'
 
 export function Healthcare() {
   return (
     <div className="healthcare container">
-      <img src={healthcare} alt="" />
+      {/* <img src={healthcare} alt="" /> */}
 
       <div className="healthcare-left">
         <h3 className="health-header">Leading healthcare providers</h3>
