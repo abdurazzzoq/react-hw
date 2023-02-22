@@ -1,16 +1,14 @@
-// import healthcare from '../images/healthcare.png'
+import healthcare from '../images/healthcare.png'
 
 export function Healthcare() {
   return (
     <div className="healthcare container">
-      {/* <img src={healthcare} alt="" /> */}
+      <img src={healthcare} alt="" />
 
       <div className="healthcare-left">
         <h3 className="health-header">Leading healthcare providers</h3>
         <hr
           style={{
-            marginLeft: -1,
-            marginTop: -20,
             width: 56,
             height: 2,
             backgroundColor: "black",
@@ -22,7 +20,7 @@ export function Healthcare() {
           on mobile and online for everyone. To us, it’s not just work. We take
           pride in the solutions we deliver
         </p>
-        <button className="learn-more" style={{width:220}}>Learn more</button>
+        <button className="learn-more" style={{marginTop:37}}>Learn more</button>
       </div>
     </div>
   );

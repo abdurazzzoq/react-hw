@@ -1,38 +1,404 @@
-.App {
+* {
+  list-style-type: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+.container {
+  max-width: 1273px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header-part {
+  margin-top: 20px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  gap: 40px;
+}
+.list-items {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.list-items:hover {
+  color: #1f1534;
+  opacity: 1;
+}
+
+/* main */
+.main {
+  margin-top: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.div-left {
+  max-width: 450px;
+  width: 100%;
+}
+.main-header {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+.main-desc {
+  margin-top: 25px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+}
+.main-btn {
+  margin-top: 45px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  color: #fff;
+  mix-blend-mode: normal;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  padding: 0 51px 0 51px;
+  cursor: pointer;
+  background-color: #458ff6;
+  transition: 0.4s ease;
+}
+.main-btn:hover {
+  background: #ffffff;
+  color: #458ff6;
+}
+
+/* services */
+
+.services {
+  margin-top: 192px;
+}
+.services-top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.services-header {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-bottom: 26px;
+}
+.services-desc {
+  max-width: 952px;
+  width: 100%;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
   text-align: center;
+  color: #7d7987;
+  mix-blend-mode: normal;
+  margin-top: 33px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.containerr {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
+.services-bottom {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 34px;
+}
+.cards {
+  max-width: 350px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 1);
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-bottom: 47px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.cards:hover {
+  background-color: cornsilk;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cards-header {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  /* line-height: 56px; */
+  color: #000000;
+  mix-blend-mode: normal;
+}
+.cards-about {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+  mix-blend-mode: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.learn-more {
+  margin-top: 69px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458ff6;
+  mix-blend-mode: normal;
+  border: 1.4px solid #458ff6;
+  background: #fff;
+  border-radius: 55px;
+  padding: 0 51px 0 51px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.learn-more:hover {
+  background: #458ff6;
+  color: #ffffff;
+}
+
+/* healthcare */
+.healthcare {
+  margin-top: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.healthcare-left {
+  max-width: 450px;
+  width: 100%;
+}
+.health-header {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-bottom: 26px;
+}
+.health-desc {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+  margin-top: 31px;
+}
+
+/* application */
+
+.app {
+  margin-top: 229px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-left {
+  max-width: 420px;
+  width: 100%;
+}
+
+.app-header {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-bottom: 26px;
+}
+
+.app-desc {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+  margin-top: 31px;
+}
+.download {
+  margin-top: 40px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458ff6;
+  mix-blend-mode: normal;
+  border: 1.4px solid #458ff6;
+  background: #fff;
+  border-radius: 55px;
+  padding: 0 51px 0 51px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.download:hover {
+  background: #458ff6;
+  color: #ffffff;
+}
+
+/* customer */
+.customer {
+  margin-top: 251px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  padding-bottom: 79px;
+}
+
+.customer-top {
+  padding-top: 64px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.customer-header {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.edward {
+  padding-top: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.edward-left {
+  display: flex;
+  align-items: center;
+}
+.edward-name {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  /* identical to box height, or 218% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+.edward-sub {
+  margin-top: -10px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.85);
+  mix-blend-mode: normal;
+}
+
+.edward-right-par {
+  max-width: 420px;
+  width: 100%;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.9);
+  mix-blend-mode: normal;
+}
+
+/* footer */
+.footer {
+  padding: 100px 0 100px 0;
+  margin-top: 201px;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+.logo-part{
+  max-width: 391px;
+  width: 100%;
+}
+.par-top {
+  margin-top: 17px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+.par-bottom {
+  margin-top: 31px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+
+.footer-header {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+}
+.ul{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-items {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #ffffff;
+  mix-blend-mode: normal;
 }

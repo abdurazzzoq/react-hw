@@ -1,14 +1,12 @@
-// import application from '../images/app.png'
+import application from '../images/app.png'
 
 export function Application() {
   return (
-    <div className="app">
+    <div className="app container">
       <div className="app-left">
         <h3 className="app-header">Download our mobile apps</h3>
         <hr
           style={{
-            marginLeft: -1,
-            marginTop: -20,
             width: 56,
             height: 2,
             backgroundColor: "black",
@@ -25,7 +23,7 @@ export function Application() {
 
       </div>
 
-      {/* <img src={application} alt="" /> */}
+      <img src={application} alt="" />
     </div>
   );
 }

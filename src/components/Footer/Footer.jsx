@@ -1,11 +1,11 @@
-// import logo2 from '../images/logo-footer.svg'
+import logo from '../images/logotip.svg'
 
 export function Footer() {
   return (
     <div className="footer">
 
       <div className="logo-part">
-        {/* <img src={logo2} alt="" /> */}
+        <img src={logo} alt="" />
         <p className="par-top">
           Trafalgar provides progressive, and affordable healthcare, accessible
           on mobile and online for everyone
